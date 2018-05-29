@@ -1,4 +1,4 @@
-package com.selenium.cucumber;
+package com.selenium.cucumber.utils;
 
 import com.selenium.cucumber.page_object.HeaderPage;
 import com.selenium.cucumber.page_object.LogInPage;

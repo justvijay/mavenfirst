@@ -1,4 +1,4 @@
-package com.selenium.cucumber;
+package com.selenium.cucumber.utils;
 
 import com.selenium.cucumber.drivers.DriversDepot;
 import cucumber.api.java.After;
