@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5f78c3f-7b2a-482d-93a2-64273c14e527" name="Default" comment="" />
+    <list default="true" id="d5f78c3f-7b2a-482d-93a2-64273c14e527" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Maven-argos/README.md" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
