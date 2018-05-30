@@ -30,8 +30,8 @@ public class LogInSteps {
 
 
     @When("^I enter  MyEmailAddress field as \"([^\"]*)\" and MyPassword field as \"([^\"]*)\"$")
-    public void i_enter_MyEmailAddress_field_as_and_MyPassword_field_as(String arg1, String arg2) throws Throwable {
-        logInPage.enterFields("<>","<>");
+    public void i_enter_MyEmailAddress_field_as_and_MyPassword_field_as(String EmailID, String MyPassword) throws Throwable {
+        logInPage.enterFields(EmailID,MyPassword);
     }
 
     @When("^I click on  submit button$")

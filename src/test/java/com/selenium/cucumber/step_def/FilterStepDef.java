@@ -32,8 +32,8 @@ public class FilterStepDef {
     }
 
     @And("^I select filter \"([^\"]*)\"$")
-    public void iSelectFilter(String arg0) throws Throwable {
-       resultPage.selectFilter("");
+    public void iSelectFilter(String fvalue) throws Throwable {
+       resultPage.selectFilter(fvalue);
     }
 
     @Then("^I should get respective product filtered by \"([^\"]*)\"$")
