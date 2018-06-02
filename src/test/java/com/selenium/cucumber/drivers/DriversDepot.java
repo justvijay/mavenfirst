@@ -1,5 +1,6 @@
 package com.selenium.cucumber.drivers;
 
+import io.github.bonigarcia.wdm.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -16,18 +17,23 @@ public class DriversDepot {
     public void openBrowser(){
         switch (browser){
             case "chrome":
+                ChromeDriverManager.getInstance().setup();
                 driver= new ChromeDriver();
                 break;
             case"ie":
+                InternetExplorerDriverManager.getInstance().setup();
                 driver=new InternetExplorerDriver();
                 break;
             case"opera":
+                OperaDriverManager.getInstance().setup();
                 driver=new OperaDriver();
                 break;
             case"edge":
+                EdgeDriverManager.getInstance().setup();
                 driver=new EdgeDriver();
                 break;
                 default:
+                    FirefoxDriverManager.getInstance().setup();
                     driver=new FirefoxDriver();
                     break;
         }

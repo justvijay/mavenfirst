@@ -29,11 +29,17 @@ public class LogInSteps {
     }
 
 
-    @When("^I enter  MyEmailAddress field as \"([^\"]*)\" and MyPassword field as \"([^\"]*)\"$")
-    public void i_enter_MyEmailAddress_field_as_and_MyPassword_field_as(String EmailID, String MyPassword) throws Throwable {
-        logInPage.enterFields(EmailID,MyPassword);
+    @When("^I enter  MyEmailAddress field as \"([^\"]*)\"$")
+    public void iEnterMyEmailAddressFieldAs(String EmailID) throws Throwable {
+        logInPage.enteremail(EmailID);
+
     }
 
+    @And("^MyPassword field as \"([^\"]*)\"$")
+    public void mypasswordFieldAs(String MyPassword) throws Throwable {
+        logInPage.enterpassword(MyPassword);
+
+    }
     @When("^I click on  submit button$")
     public void i_click_on_submit_button() throws Throwable {
        logInPage.clickLogin();
@@ -59,4 +65,5 @@ public class LogInSteps {
     public void iShouldGetErrorLoginMessage() throws Throwable {
 
     }
+
 }
