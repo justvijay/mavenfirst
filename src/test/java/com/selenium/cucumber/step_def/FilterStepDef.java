@@ -37,8 +37,8 @@ public class FilterStepDef {
     }
 
     @Then("^I should get respective product filtered by \"([^\"]*)\"$")
-    public void iShouldGetRespectiveProductFilteredBy(String arg0) throws Throwable {
+    public void iShouldGetRespectiveProductFilteredBy(Double expectedvalue) throws Throwable {
         List<Double> actualList = resultPage.getAllrating();
-        assertThat(actualList, everyItem(greaterThan(3.0)));
+        assertThat(actualList,everyItem(greaterThan(expectedvalue)));
     }
 }

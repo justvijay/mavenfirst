@@ -26,8 +26,8 @@ Feature: LogIn
     Then I should be failed to login
     And  I should get error Login  message
     Examples:
-      | EmailID     | MyPassword |
-      | RandomEmail | 12345      |
+      | EmailID               | MyPassword |
+      | RandomEmail@gmail.com | 12345      |
 
 
 

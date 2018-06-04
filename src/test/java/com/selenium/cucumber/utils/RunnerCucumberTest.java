@@ -12,7 +12,7 @@ import java.util.List;
 
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src/test/Resources")
+@CucumberOptions(features = "src/test/Resources", plugin="json:target/cucumber.json")
 
 public class RunnerCucumberTest{
 

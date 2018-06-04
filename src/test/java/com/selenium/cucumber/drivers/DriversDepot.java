@@ -11,7 +11,7 @@ import org.openqa.selenium.opera.OperaDriver;
 import java.util.concurrent.TimeUnit;
 
 public class DriversDepot {
-    private String browser="";
+    private String browser="crome";
     public static WebDriver driver;
 
     public void openBrowser(){

@@ -10,10 +10,11 @@ public class LogInPage extends DriversDepot {
             }
             public void enterpassword(String MyPassword){
                 driver.findElement(By.id("current-password")).sendKeys(MyPassword);
+                sleep(6000);
 
             }
     public void clickLogin(){
-        driver.findElement(By.cssSelector(".button")).click();
+        driver.findElement(By.id("yourEmailSubmitButton")).click();
        sleep(4000);
     }
 }

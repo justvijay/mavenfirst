@@ -7,10 +7,12 @@
       <change beforePath="$PROJECT_DIR$/src/test/Resources/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Resources/login.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/selenium/cucumber/drivers/DriversDepot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/selenium/cucumber/drivers/DriversDepot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/selenium/cucumber/page_object/LogInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/selenium/cucumber/page_object/LogInPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/selenium/cucumber/step_def/LogInSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/selenium/cucumber/step_def/LogInSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/selenium/cucumber/step_def/FilterStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/selenium/cucumber/step_def/FilterStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/selenium/cucumber/utils/RunnerCucumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/selenium/cucumber/utils/RunnerCucumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/selenium/cucumber/App.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/selenium/cucumber/drivers/DriversDepot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/selenium/cucumber/drivers/DriversDepot.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/selenium/cucumber/page_object/LogInPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/selenium/cucumber/page_object/LogInPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/selenium/cucumber/step_def/LogInSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/selenium/cucumber/step_def/LogInSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/selenium/cucumber/step_def/FilterStepDef.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/login.feature" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,23 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Hooks.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/cucumber/utils/Hooks.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LogInPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/cucumber/page_object/LogInPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+            <state relative-caret-position="200">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#249#250#0" expanded="true" />
@@ -53,74 +43,56 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HeaderPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/cucumber/page_object/HeaderPage.java">
+      <file leaf-file-name="FilterStepDef.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/cucumber/step_def/FilterStepDef.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="540">
+              <caret line="39" column="60" selection-start-line="39" selection-start-column="60" selection-end-line="39" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RunnerCucumberTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/cucumber/utils/RunnerCucumberTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cucumber.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/target/cucumber.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="Filter.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/target/test-classes/Filter.feature">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="login.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/target/test-classes/login.feature">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="login.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/Resources/login.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+            <state relative-caret-position="420">
+              <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DriversDepot.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/cucumber/drivers/DriversDepot.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-248">
-              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ResultPage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ResultPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/cucumber/page_object/ResultPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
+            <state relative-caret-position="600">
               <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LogInSteps.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/cucumber/step_def/LogInSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1180">
-              <caret line="67" selection-start-line="67" selection-end-line="67" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FilterStepDef.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/cucumber/step_def/FilterStepDef.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -133,6 +105,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="280">
               <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LogInSteps.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/cucumber/step_def/LogInSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1180">
+              <caret line="67" selection-start-line="67" selection-end-line="67" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -168,14 +152,15 @@
         <option value="$PROJECT_DIR$/src/test/java/com/selenium/cucumber/Hooks.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/selenium/cucumber1/utils/Hooks.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/selenium/cucumber/utils/Hooks.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/selenium/cucumber/step_def/FilterStepDef.java" />
         <option value="$PROJECT_DIR$/src/test/Resources/Filter.feature" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/test/java/com/selenium/cucumber/page_object/LogInPage.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/Resources/login.feature" />
         <option value="$PROJECT_DIR$/src/test/java/com/selenium/cucumber/step_def/LogInSteps.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/selenium/cucumber/drivers/DriversDepot.java" />
+        <option value="$PROJECT_DIR$/src/test/Resources/login.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/com/selenium/cucumber/page_object/LogInPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/selenium/cucumber/step_def/FilterStepDef.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/selenium/cucumber/utils/RunnerCucumberTest.java" />
       </list>
     </option>
   </component>
@@ -197,7 +182,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="width" value="1345" />
     <option name="height" value="768" />
   </component>
@@ -207,9 +192,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -301,6 +285,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -333,22 +318,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Feature: Filter (2)">
+  <component name="RunManager" selected="JUnit.RunnerCucumberTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="Feature: Filter (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="Argos.bdd" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Feature: Filter (2)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: Filter (3)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="Argos.bdd" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
@@ -370,7 +344,7 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Feature: login (2)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: login (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="Argos.bdd" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
@@ -381,7 +355,7 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Feature: login (3)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="Argos.bdd" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
@@ -391,6 +365,29 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+    </configuration>
+    <configuration name="RunnerCucumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Argos.bdd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.selenium.cucumber.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.selenium.cucumber.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.selenium.cucumber.utils.RunnerCucumberTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -431,19 +428,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Cucumber java.Feature: login (2)" />
+      <item itemvalue="Cucumber java.Feature: login" />
+      <item itemvalue="Cucumber java.Feature: Filter (3)" />
+      <item itemvalue="Cucumber java.Feature: login (1)" />
       <item itemvalue="Cucumber java.Feature: Filter" />
-      <item itemvalue="Cucumber java.Feature: login (3)" />
-      <item itemvalue="Cucumber java.Feature: Filter (1)" />
-      <item itemvalue="Cucumber java.Feature: Filter (2)" />
+      <item itemvalue="JUnit.RunnerCucumberTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber java.Feature: Filter (2)" />
-        <item itemvalue="Cucumber java.Feature: Filter (1)" />
-        <item itemvalue="Cucumber java.Feature: login (3)" />
+        <item itemvalue="JUnit.RunnerCucumberTest" />
         <item itemvalue="Cucumber java.Feature: Filter" />
-        <item itemvalue="Cucumber java.Feature: login (2)" />
+        <item itemvalue="Cucumber java.Feature: login (1)" />
+        <item itemvalue="Cucumber java.Feature: Filter (3)" />
+        <item itemvalue="Cucumber java.Feature: login" />
       </list>
     </recent_temporary>
   </component>
@@ -461,39 +458,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Feature__login_(3) - 2018.05.31 at 23h 34m 36s.xml">
-      <configuration name="Feature: login (3)" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__login_(3) - 2018.05.31 at 23h 44m 40s.xml">
-      <configuration name="Feature: login (3)" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__login_(3) - 2018.05.31 at 23h 47m 33s.xml">
-      <configuration name="Feature: login (3)" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__login_(3) - 2018.05.31 at 23h 51m 21s.xml">
-      <configuration name="Feature: login (3)" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__Filter_(1) - 2018.06.01 at 00h 00m 50s.xml">
-      <configuration name="Feature: Filter (1)" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__Filter_(1) - 2018.06.01 at 00h 01m 57s.xml">
-      <configuration name="Feature: Filter (1)" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__Filter_(1) - 2018.06.01 at 00h 13m 03s.xml">
-      <configuration name="Feature: Filter (1)" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__Filter_(1) - 2018.06.01 at 00h 18m 14s.xml">
-      <configuration name="Feature: Filter (1)" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__Filter_(2) - 2018.06.02 at 22h 18m 40s.xml">
-      <configuration name="Feature: Filter (2)" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
     <history-entry file="Feature__Filter_(2) - 2018.06.02 at 22h 31m 24s.xml">
       <configuration name="Feature: Filter (2)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
+    <history-entry file="Feature__login - 2018.06.03 at 00h 16m 20s.xml">
+      <configuration name="Feature: login" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__login - 2018.06.03 at 00h 17m 17s.xml">
+      <configuration name="Feature: login" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__login - 2018.06.03 at 00h 18m 21s.xml">
+      <configuration name="Feature: login" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__Filter_(3) - 2018.06.03 at 00h 21m 16s.xml">
+      <configuration name="Feature: Filter (3)" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__login_(1) - 2018.06.04 at 22h 17m 13s.xml">
+      <configuration name="Feature: login (1)" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__login_(1) - 2018.06.04 at 22h 22m 03s.xml">
+      <configuration name="Feature: login (1)" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__login_(1) - 2018.06.04 at 22h 33m 12s.xml">
+      <configuration name="Feature: login (1)" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__Filter - 2018.06.04 at 23h 48m 51s.xml">
+      <configuration name="Feature: Filter" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="RunnerCucumberTest - 2018.06.05 at 00h 44m 32s.xml">
+      <configuration name="RunnerCucumberTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1345" height="768" extended-state="0" />
+    <frame x="0" y="0" width="1345" height="768" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -533,54 +530,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/cucumber/utils/RunnerCucumberTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/cucumber/utils/RunnerCucumberTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/cucumber/drivers/DriversDepot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/cucumber/utils/Hooks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/cucumber/page_object/HeaderPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="14" column="126" selection-start-line="14" selection-start-column="126" selection-end-line="14" selection-end-column="126" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/cucumber/page_object/LogInPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -649,9 +598,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -659,9 +605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -710,9 +653,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -720,9 +660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -833,30 +770,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/cucumber/utils/RunnerCucumberTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/cucumber/page_object/HeaderPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/cucumber/step_def/FilterStepDef.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -864,9 +781,48 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/cucumber/drivers/DriversDepot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.12.0/selenium-remote-driver-3.12.0.jar!/org/openqa/selenium/remote/W3CHandshakeResponse.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1600">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.12.0/selenium-remote-driver-3.12.0.jar!/org/openqa/selenium/remote/ProtocolHandshake.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3120">
+          <caret line="186" selection-start-line="186" selection-end-line="186" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/stream/ReferencePipeline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1580">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Resources/login.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -882,8 +838,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/cucumber/page_object/LogInPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        <state relative-caret-position="200">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#249#250#0" expanded="true" />
@@ -892,10 +848,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/cucumber/page_object/ResultPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="600">
+          <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -906,29 +865,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Resources/login.feature">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/cucumber/step_def/FilterStepDef.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/cucumber/drivers/DriversDepot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-248">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/cucumber/page_object/ResultPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+        <state relative-caret-position="540">
+          <caret line="39" column="60" selection-start-line="39" selection-start-column="60" selection-end-line="39" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/login.feature">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/Filter.feature">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/selenium/cucumber/utils/RunnerCucumberTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/cucumber.json">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
