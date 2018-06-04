@@ -1,0 +1,463 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 22512827925,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Filter by customer ratings.",
+        "description": "",
+        "id": "filter;filter-by-customer-ratings.;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "I am on the home page.",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "I search for product\"adidas\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "I select filter \"5only\"",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "I should get respective product filtered by \"5.0\"",
+            "match": {},
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 20632527668,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Filter by customer ratings.",
+        "description": "",
+        "id": "filter;filter-by-customer-ratings.;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "I am on the home page.",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "I search for product\"adidas\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "I select filter \"4or more\"",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "I should get respective product filtered by \"4.0\"",
+            "match": {},
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 49715044788,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Filter by customer ratings.",
+        "description": "",
+        "id": "filter;filter-by-customer-ratings.;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "I am on the home page.",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "I search for product\"adidas\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "I select filter \"3or more\"",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "I should get respective product filtered by \"3.0\"",
+            "match": {},
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 54765469857,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Filter by customer ratings.",
+        "description": "",
+        "id": "filter;filter-by-customer-ratings.;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "I am on the home page.",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "I search for product\"adidas\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "I select filter \"2or more\"",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "I should get respective product filtered by \"2.0\"",
+            "match": {},
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Filter",
+    "description": "As a end user\r\nI want to apply filter\r\nSo that I get filtered product",
+    "id": "filter",
+    "keyword": "Feature",
+    "uri": "Filter.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 31055440950,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "LogIn as a registered user",
+        "description": "",
+        "id": "login;login-as-a-registered-user;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I am a registered user on the home page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "I click on SignIn button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "I should be able to go on Login page",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "I enter  MyEmailAddress field as \"vasanivijaykumar@gmail.com\"",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "MyPassword field as \"dharini1\"",
+            "match": {},
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "I click on  submit button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "I should be able to login",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 21661669604,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openUp()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "LogIn as a invalid user",
+        "description": "",
+        "id": "login;login-as-a-invalid-user;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "I am  on the home page as not registered user",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21,
+            "name": "I click on SignIn button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22,
+            "name": "I should be able to go on Login page",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23,
+            "name": "I enter  MyEmailAddress field as \"RandomEmail@gmail.com\"",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24,
+            "name": "MyPassword field as \"12345\"",
+            "match": {},
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25,
+            "name": "I click on  submit button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 26,
+            "name": "I should be failed to login",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 27,
+            "name": "I should get error Login  message",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "LogIn",
+    "description": "As an end user\r\nI want to login\r\nSo that I can get login",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]
