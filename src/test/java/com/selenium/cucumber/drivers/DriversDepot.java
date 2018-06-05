@@ -1,5 +1,6 @@
 package com.selenium.cucumber.drivers;
 
+import cucumber.api.Scenario;
 import io.github.bonigarcia.wdm.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -62,4 +63,6 @@ public class DriversDepot {
 
     }
 
+    public void embedScreenshot(Scenario scenario) {
+    }
 }
