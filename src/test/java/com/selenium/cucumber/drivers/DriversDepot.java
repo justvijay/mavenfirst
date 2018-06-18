@@ -14,7 +14,7 @@ import org.openqa.selenium.opera.OperaDriver;
 import java.util.concurrent.TimeUnit;
 
 public class DriversDepot {
-    private String browser="";
+    private String browser="chrome";
     public static WebDriver driver;
 
     public void openBrowser(){
@@ -31,10 +31,10 @@ public class DriversDepot {
                 OperaDriverManager.getInstance().setup();
                 driver=new OperaDriver();
                 break;
-            case"edge":
-                EdgeDriverManager.getInstance().setup();
-                driver=new EdgeDriver();
-                break;
+//            case"edge":
+//                EdgeDriverManager.getInstance().setup();
+//                driver=new EdgeDriver();
+//                break;
                 default:
                     FirefoxDriverManager.getInstance().setup();
                     driver=new FirefoxDriver();
