@@ -14,7 +14,7 @@ public class LogInPage extends DriversDepot {
 
             }
     public void clickLogin(){
-        driver.findElement(By.id("yourEmailSubmitButton")).click();
+        driver.findElement(new By.ByClassName("button")).click();
        sleep(4000);
     }
 }

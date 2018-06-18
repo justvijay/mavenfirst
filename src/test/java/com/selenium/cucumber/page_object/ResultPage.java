@@ -1,6 +1,7 @@
 package com.selenium.cucumber.page_object;
 
 import com.selenium.cucumber.drivers.DriversDepot;
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
@@ -8,12 +9,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ResultPage extends DriversDepot {
-    public void selectFilter(String fvalue) throws InterruptedException {
+    public void selectFilter(String value) throws InterruptedException {
 
 
-        List<WebElement> allFilters = driver.findElements(By.cssSelector(".ac-facet__label.ac-facet__label"));
+        List<WebElement> allFilters = driver.findElements(By.cssSelector(".ac-facet__label"));
         for (WebElement filter : allFilters) {
-            if (filter.getText().equalsIgnoreCase(fvalue)) {
+            if (filter.getText().equalsIgnoreCase(value)) {
                 filter.click();
                 break;
             }
@@ -24,6 +25,7 @@ public class ResultPage extends DriversDepot {
 
 
     }
+
         public List<Double> getAllrating() {
             List<Double> collectedRatings = new ArrayList<>();
             List<WebElement> ratings =
@@ -34,8 +36,5 @@ public class ResultPage extends DriversDepot {
                 collectedRatings.add(ratingInDouble);
             }
             return collectedRatings;
-        }
-
-
-
+         }
 }

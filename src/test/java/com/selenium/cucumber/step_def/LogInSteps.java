@@ -51,19 +51,19 @@ public class LogInSteps {
     }
 
 
-    @Given("^I am  on the home page as not registered user$")
-    public void iAmOnTheHomePageAsNotRegisteredUser() throws Throwable {
-
-    }
-
-    @Then("^I should be failed to login$")
-    public void iShouldBeFailedToLogin() throws Throwable {
-
-    }
-
-    @And("^I should get error Login  message$")
-    public void iShouldGetErrorLoginMessage() throws Throwable {
-
-    }
+//    @Given("^I am  on the home page as not registered user$")
+//    public void iAmOnTheHomePageAsNotRegisteredUser() throws Throwable {
+//
+//    }
+//
+//    @Then("^I should be failed to login$")
+//    public void iShouldBeFailedToLogin() throws Throwable {
+//
+//    }
+//
+//    @And("^I should get error Login  message$")
+//    public void iShouldGetErrorLoginMessage() throws Throwable {
+//
+//    }
 
 }

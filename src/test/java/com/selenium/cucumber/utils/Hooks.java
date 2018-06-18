@@ -20,10 +20,10 @@ public class Hooks {
     }
 
     @After
-    public void shutDown(Scenario scenario) {
-        if(!scenario.isFailed()){
+    public void tearDown(Scenario scenario)
+    { if(!scenario.isFailed()){
             driversDepot.embedScreenshot(scenario);}
-        driversDepot.closeBrowser();
+        //driversDepot.closeBrowser();
     }
 }
 

@@ -7,8 +7,8 @@ import org.openqa.selenium.Keys;
 public class HeaderPage extends DriversDepot {
         public void search(String product){
 
-        driver.findElement(By.cssSelector("#searchTerm")).sendKeys(product);
-        driver.findElement(By.cssSelector("#searchTerm")).sendKeys(Keys.ENTER);
+        driver.findElement(By.name("searchTerm")).sendKeys(product);
+        driver.findElement(By.name("searchTerm")).sendKeys(Keys.ENTER);
         sleep(3000);
     }
     public void goToLogin() {

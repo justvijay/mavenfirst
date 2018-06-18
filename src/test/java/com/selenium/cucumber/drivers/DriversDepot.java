@@ -2,6 +2,8 @@ package com.selenium.cucumber.drivers;
 
 import cucumber.api.Scenario;
 import io.github.bonigarcia.wdm.*;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -12,7 +14,7 @@ import org.openqa.selenium.opera.OperaDriver;
 import java.util.concurrent.TimeUnit;
 
 public class DriversDepot {
-    private String browser="crome";
+    private String browser="";
     public static WebDriver driver;
 
     public void openBrowser(){
@@ -64,5 +66,11 @@ public class DriversDepot {
     }
 
     public void embedScreenshot(Scenario scenario) {
+        try {
+            byte[] screenShot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+            scenario.embed(screenShot, "image/.png");
+        }catch (WebDriverManagerException e){
+            System.out.println("took screen shot.");
+        }
     }
 }
