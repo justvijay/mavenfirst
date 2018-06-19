@@ -4,11 +4,14 @@ Feature: Basket
   So that I can get selected product added in to basket.
 
   Scenario Outline:
-    Given I am on the product  page.
-    When I click on AddToTrolly button of a <product>.
-    Then I should find  the <SelectedProduct> added in basket.
+    Given I am on the home page.
+    When I search for a product "Adidas"
+    And I select a random product
+    And I click on addToTrolly button
+    Then I should find  the <selectedProduct> in the basket.
     Examples:
-      | product                | SelectedProduct        |
-      | Yellow Glider Football | Yellow Glider Football |
+      | Product | selectedProduct |
+      | Adidas  | Adidas          |
+ #     | Nike    | Nike            |
 #      | backpacks| backpacks       |
-#this is not working
+

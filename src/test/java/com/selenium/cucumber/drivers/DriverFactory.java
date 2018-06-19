@@ -13,7 +13,7 @@ import org.openqa.selenium.opera.OperaDriver;
 
 import java.util.concurrent.TimeUnit;
 
-public class DriversDepot {
+public class DriverFactory {
     private String browser="";
     public static WebDriver driver;
 

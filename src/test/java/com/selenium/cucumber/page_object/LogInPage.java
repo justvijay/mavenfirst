@@ -1,10 +1,9 @@
 package com.selenium.cucumber.page_object;
 
-import com.selenium.cucumber.drivers.DriversDepot;
+import com.selenium.cucumber.drivers.DriverFactory;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 
-public class LogInPage extends DriversDepot {
+public class LogInPage extends DriverFactory {
     public void enteremail(String EmailID) {
         driver.findElement(By.id("email-address")).sendKeys(EmailID);
             }

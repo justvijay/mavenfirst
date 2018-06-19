@@ -1,14 +1,13 @@
 package com.selenium.cucumber.page_object;
 
-import com.selenium.cucumber.drivers.DriversDepot;
-import org.junit.Assert;
+import com.selenium.cucumber.drivers.DriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class ResultPage extends DriversDepot {
+public class ResultPage extends DriverFactory {
     public void selectFilter(String value) throws InterruptedException {
 
 

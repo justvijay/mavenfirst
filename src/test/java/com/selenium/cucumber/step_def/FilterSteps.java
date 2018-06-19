@@ -23,14 +23,14 @@ public class FilterSteps {
     private HeaderPage headerPage = new HeaderPage();
     private ResultPage resultPage = new ResultPage();
 
-    @Given("^I am on the home page\\.$")
-    public void i_am_on_the_home_page() throws Throwable {
-
-    }
+//    @Given("^I am on the home page\\.$")
+//    public void i_am_on_the_home_page() throws Throwable {
+//
+//    }
 
     @When("^I search for product\"([^\"]*)\"$")
-    public void i_search_for_product(String product) throws Throwable {
-        headerPage.search(product);
+    public void i_search_for_product(String Product) throws Throwable {
+        headerPage.search(Product);
 
     }
 

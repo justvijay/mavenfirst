@@ -25,8 +25,8 @@ Feature: Filter
     Examples:
       | value    | expectedvalue |
       | 4or more | 4.0           |
-      | £5 - £10 | 5 - 10        |
-      | Running  | Running       |
+  #    | £5 - £10 | 5.0 - 10.0       |
+  #   | Running  | Running       |
 #      | 3 or more | 3.0          |
 #      | 2 or more | 2.0          |
 #      | backpacks | backpacks     |

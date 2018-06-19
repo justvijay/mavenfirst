@@ -1,14 +1,14 @@
 package com.selenium.cucumber.page_object;
 
-import com.selenium.cucumber.drivers.DriversDepot;
+import com.selenium.cucumber.drivers.DriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 
-public class HeaderPage extends DriversDepot {
-        public void search(String product){
+public class HeaderPage extends DriverFactory {
+        public void search(String Product){
 
-        driver.findElement(By.name("searchTerm")).sendKeys(product);
-        driver.findElement(By.name("searchTerm")).sendKeys(Keys.ENTER);
+        driver.findElement(By.id("searchTerm")).sendKeys(Product);
+        driver.findElement(By.id("searchTerm")).sendKeys(Keys.ENTER);
         sleep(3000);
     }
     public void goToLogin() {
